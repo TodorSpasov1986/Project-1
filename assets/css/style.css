@@ -58,3 +58,29 @@ h2 {
     border-bottom: 1px solid rgb(216, 46, 46);
     
 }
+/* main image */
+#main-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 600px;
+    width: 100%;
+    background: url(../images/main.jpeg) no-repeat center center;
+
+    /* animation zoom effect on loading page */
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates level of zoom */
+@keyframes main-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
