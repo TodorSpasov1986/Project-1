@@ -12,6 +12,7 @@ body {
     color: rgb(32, 106, 175);
 }
 
+
 /* headings and logo */
 h1,
 h2 {
@@ -63,6 +64,11 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+/* cover text */
+#cover-text, #cover-text h2{
+color: white;
 }
 #main{
     height: 600px;
@@ -83,4 +89,21 @@ h2 {
     to{
         transform: scale(1.1);
     }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: 'Labrada', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 330px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgb(70, 151, 189, .6);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
 }
