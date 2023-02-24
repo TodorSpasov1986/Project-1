@@ -7,5 +7,17 @@ border: none;
 body
 {
     font-family: 'Anton', 'Labrada', 'Roboto Condensed', sans-serif;
-    font width: 400;
+    font-weight: 400;
+    color:rgb(32, 106, 175);
+}
+/* headings and logo */
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(99, 14, 179);
+}
+#logo{
+    float: left;
+    font-size: 180%;
 }
