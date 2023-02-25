@@ -10,6 +10,8 @@ body {
     font-family: 'Anton', 'Labrada', 'Roboto Condensed', sans-serif;
     font-weight: 400;
     color: rgb(32, 106, 175);
+    background-color: rgb(68, 226, 173);
+    
 }
 
 
@@ -149,13 +151,18 @@ h2 {
 }
 
 /* containers */
+.container {
+    max-width: 1850px;
+    height: 700px;
+    padding-top: 50px;
+    display: flex;
+   
+}
+
 #square-container1 {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 2px;
     margin: 0 auto;
 }
 
@@ -163,9 +170,6 @@ h2 {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 2px;
     float: left;
 }
 
@@ -173,9 +177,6 @@ h2 {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 2px;
     float: right;
 }
 
