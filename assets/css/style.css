@@ -25,6 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -55,25 +56,31 @@ h2 {
     border-bottom: 1px solid rgb(216, 46, 46);
     color: rgb(216, 46, 46);
 }
+
 .active {
     border-bottom: 1px solid rgb(216, 46, 46);
-    
+
 }
+
 /* main image */
-#main-outer{
+#main-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
 /* cover text */
-#cover-text, #cover-text h2{
-color: white;
+#cover-text,
+#cover-text h2 {
+    color: white;
 }
-#main{
+
+#main {
     height: 600px;
     width: 100%;
     background: url(../images/main.jpeg) no-repeat center center;
+    scale: 120%;
 
     /* animation zoom effect on loading page */
     animation-name: main-zoom;
@@ -82,15 +89,17 @@ color: white;
 }
 
 /* creates level of zoom */
-@keyframes main-zoom{
-    from{
+@keyframes main-zoom {
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
-#cover-text{
+
+#cover-text {
     font-size: 130%;
     font-family: 'Labrada', sans-serif;
     text-transform: uppercase;
@@ -106,4 +115,84 @@ color: white;
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+#top-three {
+    height: 600px;
+    text-align: center;
+
+}
+
+#second-spot {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+
+}
+
+#third-spot {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+
+}
+
+#first-spot {
+    width: 33%;
+    margin: 0 auto;
+
+}
+
+#spots {
+    margin: 30px 0;
+    font-size: 200%;
+}
+
+/* containers */
+#square-container1 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
+    margin: 0 auto;
+}
+
+#square-container2 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
+    float: left;
+}
+
+#square-container3 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
+    float: right;
+}
+
+#square-cove-bg1 {
+    background: url(../images/LakeDistrct.jpeg) no-repeat center center;
+    height: 100%;
+    scale: 175%;
+}
+
+#square-cove-bg2 {
+    background: url(../images/PearlLake.jpeg) no-repeat center center;
+    height: 100%;
+    scale: 150%;
+}
+
+#square-cove-bg3 {
+    background: url(../images/WestfieldFishery.jpeg) no-repeat center center;
+    height: 100%;
+    scale: 150%;
 }
