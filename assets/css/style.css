@@ -75,9 +75,10 @@ h2 {
 /* main image */
 #main-outer {
     height: 600px;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     position: relative;
+   
 }
 
 /* cover text */
@@ -196,7 +197,7 @@ h2 {
 #square-cove-bg2 {
     background: url(../images/PearlLake.jpeg) no-repeat center center;
     height: 100%;
-    scale: 150%;
+    scale: 140%;
     padding-left: -30px;
 }
 
@@ -205,9 +206,17 @@ h2 {
     height: 100%;
     scale: 150%;
 }
+.fishing-news{
+    background-image: url(../images/news.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow:hidden;
+}
 .news-section{
     width: 330px;
-    height: 300px;
+    height: 100%;
     padding: 30px; 
     
 }
