@@ -22,7 +22,7 @@ h1 {
     letter-spacing: 5px;
     color: rgb(0, 0, 0);
     text-align: center;
-    
+
 }
 
 h2 {
@@ -75,10 +75,10 @@ h2 {
 /* main image */
 #main-outer {
     height: 600px;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     position: relative;
-   
+
 }
 
 /* cover text */
@@ -132,12 +132,14 @@ h2 {
     height: 600px;
     text-align: center;
 
+
 }
 
 #second-spot {
     padding-top: 30px;
     width: 33%;
     float: left;
+    margin-left: 10px;
 
 }
 
@@ -145,6 +147,7 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
+    margin-right: 10px;
 
 }
 
@@ -197,8 +200,8 @@ h2 {
 #square-cove-bg2 {
     background: url(../images/PearlLake.jpeg) no-repeat center center;
     height: 100%;
-    scale: 140%;
-    padding-left: -30px;
+    scale: 150%;
+
 }
 
 #square-cove-bg3 {
@@ -206,35 +209,46 @@ h2 {
     height: 100%;
     scale: 150%;
 }
-.fishing-news{
+
+.fishing-news {
     background-image: url(../images/news.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
+    padding-top: 30px;
 }
-.news-section{
-    width: 330px;
+
+.news-section {
+    width: 300px;
     height: 100%;
-    padding: 30px; 
-    
+    padding: 30px;
 }
+
+#newsh1 {
+    font-size: 200%;
+}
+
 /* Icons */
-#gold{
+#gold {
     color: gold;
 }
-#silver{
+
+#silver {
     color: silver;
 }
-#bronze{
-    color:rgb(176, 141, 87);
+
+#bronze {
+    color: rgb(176, 141, 87);
 }
+
 /* news section */
-#news{
-    border:solid;
+#news {
+    border: solid;
     height: 5px;
-    width:auto;
+    width: auto;
     color: black;
     background-color: black;
+
 }
