@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    text-align: center;
 }
 
 body {
@@ -21,7 +20,9 @@ h1 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
 }
 
 h2 {
@@ -204,7 +205,12 @@ h2 {
     height: 100%;
     scale: 150%;
 }
-
+.news-section{
+    width: 330px;
+    height: 300px;
+    padding: 30px; 
+    
+}
 /* Icons */
 #gold{
     color: gold;
@@ -214,4 +220,12 @@ h2 {
 }
 #bronze{
     color:rgb(176, 141, 87);
+}
+/* news section */
+#news{
+    border:solid;
+    height: 5px;
+    width:auto;
+    color: black;
+    background-color: black;
 }
