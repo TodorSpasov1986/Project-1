@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     color: rgb(0, 0, 0);
     background-color: rgb(87, 185, 120);
+    min-height: 100vh;
 
 }
 
@@ -170,45 +171,35 @@ h2 {
 
 }
 
+
 #square-container1 {
-    width: 350px;
-    height: 300px;
-    padding: 30px;
+    background: url(../images/LakeDistrct.jpeg) no-repeat center center;
+    scale: 170%;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
     margin: 0 auto;
 }
 
 #square-container2 {
-    width: 350px;
-    height: 300px;
-    padding: 30px;
+    background: url(../images/PearlLake.jpeg) no-repeat center center;
+    scale: 160%;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
     float: left;
 }
 
 #square-container3 {
-    width: 350px;
-    height: 300px;
-    padding: 30px;
+    background: url(../images/WestfieldFishery.jpeg) no-repeat center center;
+    scale: 150%;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
     float: right;
 }
 
-#square-cove-bg1 {
-    background: url(../images/LakeDistrct.jpeg) no-repeat center center;
-    height: 100%;
-    scale: 175%;
-}
 
-#square-cove-bg2 {
-    background: url(../images/PearlLake.jpeg) no-repeat center center;
-    height: 100%;
-    scale: 150%;
-
-}
-
-#square-cove-bg3 {
-    background: url(../images/WestfieldFishery.jpeg) no-repeat center center;
-    height: 100%;
-    scale: 150%;
-}
 
 .fishing-news {
     background-image: url(../images/news.jpg);
@@ -259,18 +250,18 @@ h2 {
 
 }
 /* footer */
-footer{
-    height: 100px;
-    
+.visit{
+    position: sticky;
+    top: 100%;
 }
 .social{
     text-align: center;
 }
 .social li{
-    display: inline;
+    display: inline-block;
 }
 .social i{
-    font-size: 240%;
+    font-size: 250%;
     margin: 1%;
     padding: 4%;
     color: rgb(11, 11, 14);
