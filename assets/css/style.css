@@ -10,7 +10,7 @@ body {
     font-family: 'Anton', 'Labrada', 'Roboto Condensed', sans-serif;
     font-weight: 400;
     color: rgb(0, 0, 0);
-    background-color: rgb(247, 247, 250);
+    background-color: rgb(87, 185, 120);
 
 }
 
@@ -218,12 +218,18 @@ h2 {
     width: 100%;
     overflow: hidden;
     padding-top: 30px;
+    
 }
 
 .news-section {
     width: 300px;
     height: 100%;
     padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, .5);
+    
+    
+    
 }
 
 #newsh1 {
@@ -251,4 +257,21 @@ h2 {
     color: black;
     background-color: black;
 
+}
+/* footer */
+footer{
+    height: 100px;
+    
+}
+.social{
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+.social i{
+    font-size: 240%;
+    margin: 1%;
+    padding: 4%;
+    color: rgb(11, 11, 14);
 }
