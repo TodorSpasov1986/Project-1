@@ -295,18 +295,26 @@ h2 {
     width: 100%;
 }
 /* media queries */
-@media screen and (max-width: 1200px){
-   
+@media screen and (max-width: 1200px)
+{
+   p{
+    font-size: 85%;
+   }
    
    .square{
-    height: 400px;
+    height: 300px;
    }
    #top-three {
     height: 800px;
     text-align: center;
-   
-
    }
+   #spots{
+    font-size: 100%;
+   }
+   .spot{
+    display: inline;
+   }
+   
    #second-spot {
     float:left;
    }
@@ -323,4 +331,82 @@ h2 {
     display: inline;
     float: none;
    }
+   #main-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#square-container1 {
+    background: url(../images/LakeDistrct.jpeg) no-repeat center center;
+    scale: 100%;
+    width: 200px;
+    height: 100px;
+    padding: 0px;
+    margin: 0 auto;
+
+}
+
+#square-container2 {
+    background: url(../images/PearlLake.jpeg) no-repeat center center;
+    scale: 100%;
+    width: 200px;
+    height: 100px;
+    padding: 0px;
+    float: left;
+}
+
+#square-container3 {
+    background: url(../images/WestfieldFishery.jpeg) no-repeat center center;
+    scale: 100%;
+    width: 200px;
+    height: 100px;
+    padding: 0px;
+    float: right;
+}
+#menu {
+    font-size: 70%;
+    letter-spacing: 1px;
+
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 15px;
+}
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 10px;
+}
+#cover-text {
+    font-size: 130%;
+    font-family: 'Labrada', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    background-color: rgb(70, 151, 189, .6);
+    bottom: 10px;
+    right: 50px;
+    position: absolute;
+}
+#newsh1 {
+    font-size: 150%;
+}
+.news-section>h2{
+font-size: 100%;
+}
 }
