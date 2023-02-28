@@ -294,3 +294,33 @@ h2 {
 #pictures img{
     width: 100%;
 }
+/* media queries */
+@media screen and (max-width: 1200px){
+   
+   
+   .square{
+    height: 400px;
+   }
+   #top-three {
+    height: 800px;
+    text-align: center;
+   
+
+   }
+   #second-spot {
+    float:left;
+   }
+   #first-spot {
+    float: inline-start;
+   }
+   #third-spot{
+    float:inline-end
+   }
+   
+   .container {
+    width: 100%;
+    padding-top: 50px;
+    display: inline;
+    float: none;
+   }
+}
