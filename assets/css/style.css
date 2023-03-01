@@ -33,41 +33,39 @@ h2 {
     color: rgb(0, 0, 0)
 }
 
-.back {
-    background-color: rgba(253, 253, 253, 0.6);
-}
 
-#logo {
+
+.logo {
     float: left;
     font-size: 300%;
     margin-left: 30px;
 }
 
 /* navigation links */
-#menu {
+.menu {
     font-size: 125%;
     letter-spacing: 4px;
 
 }
 
-#menu,
-#logo {
+.menu,
+.logo {
     line-height: 75px;
 
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 25px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid rgb(10, 158, 47);
     color: rgb(10, 158, 47);
 }
@@ -78,7 +76,7 @@ h2 {
 }
 
 /* main image */
-#main-outer {
+.main-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -87,12 +85,12 @@ h2 {
 }
 
 /* cover text */
-#cover-text,
-#cover-text h2 {
+.cover-text,
+.cover-text h2 {
     color: white;
 }
 
-#main {
+.main {
     height: 600px;
     width: fit-content;
     width: 100%;
@@ -116,7 +114,7 @@ h2 {
     }
 }
 
-#cover-text {
+.cover-text {
     font-size: 130%;
     font-family: 'Labrada', sans-serif;
     text-transform: uppercase;
@@ -134,32 +132,9 @@ h2 {
     position: absolute;
 }
 
-#top-three {
-    height: 410px;
+.top-three {
+    height: 500px;
     text-align: center;
-
-
-}
-
-#second-spot {
-    padding-top: 30px;
-    width: 33.3%;
-    float: left;
-
-
-}
-
-#third-spot {
-    padding-top: 30px;
-    width: 33.3%;
-    float: right;
-
-
-}
-
-#first-spot {
-    width: 33.3%;
-    margin: 0 auto;
 
 }
 
@@ -174,42 +149,51 @@ h2 {
     padding-top: 50px;
     display: flex;
 }
-
-.one {
-    width: 96.5%;
+.pic{
+    width: 33%;
     padding-top: 50px;
-    display: flex;
+    display: flex;  
 }
 
 
+
 #square-container1 {
-    background: url(../images/LakeDistrct.jpeg) no-repeat center center;
-    scale: 195%;
-    width: 260px;
-    height: 125px;
+    background: url(../images/LakeDistrct.jpg) no-repeat center center;
+    padding-top: 50px;
+    width: 100%;
+    height: 250px;
     padding: 20px;
     margin: 0 auto;
 
 }
 
 #square-container2 {
-    background: url(../images/PearlLake.jpeg) no-repeat center center;
-    scale: 147%;
-    width: 250px;
-    height: 125px;
+    background: url(../images/PearlLake.jpg) no-repeat center center;
+    padding-top: 50px;
+    width: 100%;
+    height: 250px;
     padding: 20px;
     float: left;
+    
 }
 
 #square-container3 {
-    background: url(../images/WestfieldFishery.jpeg) no-repeat center center;
-    scale: 147%;
-    width: 240px;
-    height: 125px;
+    background: url(../images/WestfieldFishery.jpg) no-repeat center center;
+    padding-top: 50px;
+    width: 100%;
+    height: 250px;
     padding: 20px;
     float: right;
+    
 }
 
+.square h3{
+    background-color: rgba(166, 238, 159, 0.6);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
 
 
 .fishing-news {
@@ -284,129 +268,17 @@ h2 {
     padding: 4%;
     color: rgb(255, 255, 255);
 }
+
 /* gallery */
-#pictures{
- clear: both;  
- line-height: 0; 
- column-count: 3;
- column-gap: 0;
+#pictures {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
 }
-#pictures img{
+
+#pictures img {
     width: 100%;
 }
+
 /* media queries */
-@media screen and (max-width: 1200px)
-{
-   p{
-    font-size: 85%;
-   }
-   
-   .square{
-    height: 300px;
-   }
-   #top-three {
-    height: 800px;
-    text-align: center;
-   }
-   #spots{
-    font-size: 100%;
-   }
-   .spot{
-    display: inline;
-   }
-   
-   #second-spot {
-    float:left;
-   }
-   #first-spot {
-    float: inline-start;
-   }
-   #third-spot{
-    float:inline-end
-   }
-   
-   .container {
-    width: 100%;
-    padding-top: 50px;
-    display: inline;
-    float: none;
-   }
-   #main-outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-#square-container1 {
-    background: url(../images/LakeDistrct.jpeg) no-repeat center center;
-    scale: 100%;
-    width: 200px;
-    height: 100px;
-    padding: 0px;
-    margin: 0 auto;
-
-}
-
-#square-container2 {
-    background: url(../images/PearlLake.jpeg) no-repeat center center;
-    scale: 100%;
-    width: 200px;
-    height: 100px;
-    padding: 0px;
-    float: left;
-}
-
-#square-container3 {
-    background: url(../images/WestfieldFishery.jpeg) no-repeat center center;
-    scale: 100%;
-    width: 200px;
-    height: 100px;
-    padding: 0px;
-    float: right;
-}
-#menu {
-    font-size: 70%;
-    letter-spacing: 1px;
-
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 15px;
-}
-#logo {
-    float: left;
-    font-size: 200%;
-    margin-left: 10px;
-}
-#cover-text {
-    font-size: 130%;
-    font-family: 'Labrada', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    width: 250px;
-    height: 120px;
-
-    padding-top: 30px;
-    padding-left: 10px;
-
-    background-color: rgb(70, 151, 189, .6);
-    bottom: 10px;
-    right: 50px;
-    position: absolute;
-}
-#newsh1 {
-    font-size: 150%;
-}
-.news-section>h2{
-font-size: 100%;
-}
-}
