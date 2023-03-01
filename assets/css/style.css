@@ -105,7 +105,7 @@ h2 {
 /* creates level of zoom */
 @keyframes main-zoom {
     from {
-        transform: scale(1);
+        transform: scale(1.0);
     }
 
     to {
@@ -306,20 +306,37 @@ h2 {
     border-color: rgb(16, 94, 6);
     width: 66%;
     height: 100%;
-}
-#first{
-    background-image: url(../images/places/LakeDistrictNationalPark.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    
+    
+}
+.border1 h2{
+    background-color: rgba(166, 238, 159, 0.6);
+    width: fit-content;
+    padding-left: 10px;
+    
+}
+#first{
+    background-image: url(../images/places/LakeDistrictNationalPark.jpg);
+    
 
     
 }
 #second{
     background-image: url(../images/places/PearlLakeCountryHolidayPark.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
+}
+#third{
+    background-image: url(../images/places/WestfieldFisheryCarpFishing\ Lake.jpg);
+    
+}
+#fourth{
+    background-image: url(../images/places/TheRiverDoveandthePeakDistrict.jpg);
+}
+#fifth{
+    background-image: url(../images/places/WindermereandtheLakeDistrict.jpg);
+ 
 }
 
 /* media queries */
