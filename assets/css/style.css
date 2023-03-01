@@ -149,10 +149,11 @@ h2 {
     padding-top: 50px;
     display: flex;
 }
-.pic{
+
+.pic {
     width: 33%;
     padding-top: 50px;
-    display: flex;  
+    display: flex;
 }
 
 
@@ -174,7 +175,7 @@ h2 {
     height: 250px;
     padding: 20px;
     float: left;
-    
+
 }
 
 #square-container3 {
@@ -184,10 +185,10 @@ h2 {
     height: 250px;
     padding: 20px;
     float: right;
-    
+
 }
 
-.square h3{
+.square h3 {
     background-color: rgba(166, 238, 159, 0.6);
     text-align: center;
     align-items: center;
@@ -195,7 +196,20 @@ h2 {
 
 }
 
+/* Icons */
+#gold {
+    color: gold;
+}
 
+#silver {
+    color: silver;
+}
+
+#bronze {
+    color: rgb(176, 141, 87);
+}
+
+/* news section */
 .fishing-news {
     background-image: url(../images/news.jpg);
     background-repeat: no-repeat;
@@ -222,20 +236,9 @@ h2 {
     font-size: 200%;
 }
 
-/* Icons */
-#gold {
-    color: gold;
-}
 
-#silver {
-    color: silver;
-}
 
-#bronze {
-    color: rgb(176, 141, 87);
-}
 
-/* news section */
 #news {
     border: solid;
     height: 5px;
@@ -287,54 +290,196 @@ h2 {
 
 @media (min-width: 1018px) and (max-width: 1300px) {
     h1 {
-letter-spacing: 4px;
+        letter-spacing: 4px;
     }
 
     .logo {
         font-size: 250%;
         margin-left: 10px;
     }
-    
+
     /* navigation links */
     .menu {
         font-size: 100%;
         letter-spacing: 3px;
-    
+
     }
-    
+
     .menu,
     .logo {
         line-height: 70px;
         margin-right: 10px;
-    
+
     }
+
+    .main-outer {
+        height: 500px;
+
+    }
+
+    .cover-text {
+        font-size: 120%;
+        letter-spacing: 3px;
+        width: 300px;
+        height: 140px;
+        bottom: 25px;
+        right: 120px;
+
+    }
+
+    .top-three {
+        height: 400px;
+    }
+
+    .square h3 {
+        font-size: 90%;
+    }
+
+    #spots {
+        margin: 20px 0;
+        font-size: 180%;
+    }
+
+    /* containers */
+
+    #square-container1 {
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #square-container2 {
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #square-container3 {
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+    }
+
+    /* news section */
+    #news {
+        display: none;
+    }
+
+    #newsh1 {
+        font-size: 140%;
+    }
+    .news-section{
+        font-size: 90%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center
+    }
+    .social i {
+        font-size: 200%;
+    }
+
 }
- 
+
 
 /* iPads, Tablets */
 
 @media (min-width: 505px) and (max-width: 1017px) {
     h1 {
         letter-spacing: 3px;
-            }
+    }
+
     .logo {
         font-size: 220%;
         margin-left: 5px;
         line-height: 50px;
     }
-    
+
     /* navigation links */
     .menu {
         font-size: 90%;
         letter-spacing: 2px;
-        float:left;
+        float: left;
         line-height: 50px;
         margin-left: 10px;
-    
+
     }
-    
-    
-  
+
+    .main-outer {
+        height: 400px;
+
+    }
+
+    .cover-text {
+        font-size: 100%;
+        letter-spacing: 2px;
+        width: 250px;
+        height: 120px;
+        bottom: 20px;
+        right: 100px;
+
+    }
+
+    .top-three {
+        height: 350px;
+    }
+
+    .square h3 {
+        font-size: 75%;
+    }
+
+    #spots {
+        margin: 10px 0;
+        font-size: 130%;
+    }
+
+    /* containers */
+
+    #square-container1 {
+        width: 100%;
+        height: 175px;
+        padding: 10px;
+    }
+
+    #square-container2 {
+        width: 100%;
+        height: 175px;
+        padding: 10px;
+    }
+
+    #square-container3 {
+        width: 100%;
+        height: 175px;
+        padding: 10px;
+    }
+
+    /* news section */
+    #news {
+        display: none;
+    }
+
+    #newsh1 {
+        font-size: 140%;
+    }
+    .news-section{
+        font-size: 75%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center
+    }
+    .social i {
+        font-size: 170%;
+    }
+
 }
 
 /*  Mobile devices. */
@@ -342,21 +487,90 @@ letter-spacing: 4px;
 @media (max-width: 505px) {
     h1 {
         letter-spacing: 2px;
-            }
+    }
+
     .logo {
         font-size: 170%;
         margin-left: 5px;
         line-height: 40px;
     }
-    
+
     /* navigation links */
     .menu {
         font-size: 60%;
         letter-spacing: 0px;
-        float:left;
+        float: left;
         line-height: 50px;
         margin-left: 20px;
-    
+
     }
-  
+
+    .main-outer {
+        height: 400px;
+
+    }
+
+    .cover-text {
+        font-size: 80%;
+        letter-spacing: 1px;
+        width: 200px;
+        height: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .top-three {
+        height: 300px;
+    }
+
+    .square h3 {
+        font-size: 50%;
+    }
+
+    #spots {
+        margin: 5px 0;
+        font-size: 100%;
+    }
+
+    /* containers */
+
+    #square-container1 {
+        width: 100%;
+        height: 150px;
+        padding: 5px;
+    }
+
+    #square-container2 {
+        width: 100%;
+        height: 150px;
+        padding: 5px;
+    }
+
+    #square-container3 {
+        width: 100%;
+        height: 150px;
+        padding: 5px;
+    }
+    /* news section */
+    #news {
+        display: none;
+    }
+
+    #newsh1 {
+        font-size: 120%;
+    }
+    .news-section{
+        font-size: 70%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center
+    }
+    social i {
+        font-size: 140%;
+    }
 }
