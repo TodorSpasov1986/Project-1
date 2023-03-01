@@ -282,3 +282,81 @@ h2 {
 }
 
 /* media queries */
+
+/*  Desktops, large screens */
+
+@media (min-width: 1018px) and (max-width: 1300px) {
+    h1 {
+letter-spacing: 4px;
+    }
+
+    .logo {
+        font-size: 250%;
+        margin-left: 10px;
+    }
+    
+    /* navigation links */
+    .menu {
+        font-size: 100%;
+        letter-spacing: 3px;
+    
+    }
+    
+    .menu,
+    .logo {
+        line-height: 70px;
+        margin-right: 10px;
+    
+    }
+}
+ 
+
+/* iPads, Tablets */
+
+@media (min-width: 505px) and (max-width: 1017px) {
+    h1 {
+        letter-spacing: 3px;
+            }
+    .logo {
+        font-size: 220%;
+        margin-left: 5px;
+        line-height: 50px;
+    }
+    
+    /* navigation links */
+    .menu {
+        font-size: 90%;
+        letter-spacing: 2px;
+        float:left;
+        line-height: 50px;
+        margin-left: 10px;
+    
+    }
+    
+    
+  
+}
+
+/*  Mobile devices. */
+
+@media (max-width: 505px) {
+    h1 {
+        letter-spacing: 2px;
+            }
+    .logo {
+        font-size: 170%;
+        margin-left: 5px;
+        line-height: 40px;
+    }
+    
+    /* navigation links */
+    .menu {
+        font-size: 60%;
+        letter-spacing: 0px;
+        float:left;
+        line-height: 50px;
+        margin-left: 20px;
+    
+    }
+  
+}
