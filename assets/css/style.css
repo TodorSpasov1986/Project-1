@@ -47,8 +47,11 @@ h2 , h3 {
 /* navigation links */
 .menu {
     font-size: 125%;
-    letter-spacing: 4px;
-
+    letter-spacing: 3px;
+    display: flex;
+    float:right;
+    background-color: rgba(36, 228, 154, 0.6);
+    
 }
 
 .menu,
@@ -61,6 +64,7 @@ h2 , h3 {
     float: right;
     list-style-type: none;
     margin-right: 25px;
+    
 }
 
 .menu a {
@@ -95,9 +99,10 @@ h2 , h3 {
 
 .main {
     height: 100%;
-    width: fit-content;
     width: 100%;
     background: url(../images/main.jpeg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
     
     /* animation zoom effect on loading page */
     animation-name: main-zoom;
@@ -367,6 +372,15 @@ footer{
     align-items: center;
     
 }
+.back1{
+    background-image: url(../images/backgroundhome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 .back2{
     background-image: url(../images/signup/victory_fishing_lake_sandwich_kent.jpg);
     background-repeat: no-repeat;
@@ -401,6 +415,21 @@ button{
 .feedback{
     background-color: rgba(245, 252, 249, 0.6);
 }
+.thankyou{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.thankyou > h1{
+    font-size: 400%;
+    
+    
+}
 /* media queries */
 
 /*  Desktops, large screens */
@@ -419,7 +448,7 @@ button{
     .menu {
         font-size: 100%;
         letter-spacing: 3px;
-
+        
     }
 
     .menu,
