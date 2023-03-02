@@ -49,6 +49,7 @@ h2 , h3 {
     font-size: 125%;
     letter-spacing: 3px;
     display: flex;
+    flex-direction: row-reverse;
     float:right;
     background-color: rgba(36, 228, 154, 0.6);
     
@@ -113,11 +114,11 @@ h2 , h3 {
 /* creates level of zoom */
 @keyframes main-zoom {
     from {
-        transform: scale(1.0);
+        transform: scale(0.8);
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.0);
     }
 }
 
@@ -143,8 +144,11 @@ h2 , h3 {
     height: 500px;
     text-align: center;
     background-image: url(../images/backgroundhome.jpg);
-    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
     width: 100%;
+    height: 100%;
     overflow: hidden;
 
 }
@@ -316,7 +320,7 @@ footer{
     
 }
 .border{
-    border: solid 3px;
+    border: none;
     border-color: rgb(16, 94, 6);
     width: 33%;
     height: 100%;
@@ -324,40 +328,66 @@ footer{
        
 }
 .border1{
-    border: solid 3px;
+    border: none;
     border-color: rgb(16, 94, 6);
     width: 66%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-      
+ 
     
 }
-.border1 h2{
+.border1 h2 {
     background-color: rgba(36, 228, 154, 0.6);
     width: fit-content;
     padding-left: 10px;
     
 }
+.border p {
+    background-color: rgba(36, 228, 154, 0.6);
+    width: fit-content;
+    
+}
 #first{
     background-image: url(../images/places/LakeDistrictNationalPark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
     
 
     
 }
 #second{
     background-image: url(../images/places/PearlLakeCountryHolidayPark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 #third{
     background-image: url(../images/places/WestfieldFisheryCarpFishing\ Lake.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 #fourth{
     background-image: url(../images/places/TheRiverDoveandthePeakDistrict.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 #fifth{
     background-image: url(../images/places/WindermereandtheLakeDistrict.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
  
 }
 /* Sign Up */
@@ -372,28 +402,13 @@ footer{
     align-items: center;
     
 }
-.back1{
-    background-image: url(../images/backgroundhome.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.back2{
-    background-image: url(../images/signup/victory_fishing_lake_sandwich_kent.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    
-    
+
+
+#submit , #reset{
+    background-color:initial;
 }
 input , label{
-    background-color: rgba(245, 252, 249, 0.6);
+    background-color: rgb(36, 228, 154)
     
 }
 input{
@@ -404,7 +419,7 @@ input{
 button{
     height: 40px;
     width: 100px;
-    background-color: rgb(27, 129, 90);
+    background-color: rgb(36, 228, 154);
     border: solid 2px black;
 }
 
@@ -427,14 +442,33 @@ button{
 }
 .thankyou > h1{
     font-size: 400%;
-    
-    
+        
 }
+.back1{
+    background-image: url(../images/backgroundhome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.back2{
+    background-image: url(../images/signup/victory_fishing_lake_sandwich_kent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+       
+}
+
 /* media queries */
 
 /*  Desktops, large screens */
 
-@media (min-width: 1018px) and (max-width: 1140px) {
+@media (min-width: 1018px) and (max-width: 1165px) {
     h1 , h2{
         letter-spacing: 4px;
     }
@@ -640,6 +674,10 @@ button{
     .border , .border1 {
         font-size: 75%;
     }
+    /* gallery */
+    #pictures {
+        column-count: 2;
+    }
 }
 
 /*  Mobile devices. */
@@ -738,5 +776,9 @@ button{
     /* Places */
     .border , .border1 {
         font-size: 60%;
+    }
+    /* gallery */
+    #pictures {
+        column-count: 1;
     }
 }
