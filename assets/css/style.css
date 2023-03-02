@@ -343,8 +343,8 @@ h2 {
 }
 /* Sign Up */
 .signup{
-    padding-top: 100px;
-    margin-left: auto;
+    padding-top: 200px;
+    text-align: center;
 }
 
 /* media queries */
