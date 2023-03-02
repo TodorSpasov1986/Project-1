@@ -302,6 +302,7 @@ h2 {
     width: 33%;
     height: 100%;
     overflow: scroll;
+       
 }
 .border1{
     border: solid 3px;
@@ -339,6 +340,11 @@ h2 {
 #fifth{
     background-image: url(../images/places/WindermereandtheLakeDistrict.jpg);
  
+}
+/* Sign Up */
+.signup{
+    padding-top: 100px;
+    margin-left: auto;
 }
 
 /* media queries */
