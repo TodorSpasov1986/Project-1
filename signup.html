@@ -12,7 +12,7 @@
     <title>Sign Up</title>
 </head>
 
-<body>
+<body class="back2">
     <Header>
         <a href="index.html">
             <h1 class="logo">Best Fishing Places in UK</h1>
@@ -34,7 +34,9 @@
 
             </ul>
         </nav>
-       <section>
+       
+    </Header>
+    <section>
         <div class="signup">
         <form>
             <label for="username">Enter your Username:</label>
@@ -50,23 +52,23 @@
             <input type="password" name="password2" placeholder="Confirm Password">
             <hr>
             <label for="birthdate">Date of Birth:</label>
-            <hr>
             <input type="date" name="birthdate" id="birthdate">
             <hr>
-            <input type="submit" value="Register">
-            <input type="reset" value="Clear Form">
+            
+            <button><input id="submit" type="submit" value="Register"></button>
+            <button><input id="reset" type="reset" value="Clear Form"></button>
         
+        <hr>
         </form>
     
-      <label for="feedback">
-         <h3>Please leave your feedback!</h3>
+      <label for="feedback" class="feedback">
+         <h3 id="feedback">Please leave your feedback!</h3>
         </label>
          <br>
-        <textarea placeholder="Your feedback" id="feedback" rows="10" cols="50">
+        <textarea placeholder="Your feedback" class="feedback" rows="20" cols="40">
         </textarea>
     </div>
     </section>
-    </Header>
     <footer class="visit">
 
         <ul class="social">
