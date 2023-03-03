@@ -449,6 +449,8 @@ input{
 {
     background-color: rgba(245, 252, 249, 0.6);
     border: solid 2px black;
+    font-size: larger;
+    text-align: center;
 }
 .thankyou{
     display: flex;
