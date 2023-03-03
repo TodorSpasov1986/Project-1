@@ -209,11 +209,13 @@ h2 , h3 {
 
 }
 
-.square h3 {
+.square h2 {
     background-color: rgba(36, 228, 154, 0.6);
     text-align: center;
     align-items: center;
     width: 100%;
+    font-size: 100%;
+    
 
 }
 
@@ -316,6 +318,7 @@ footer{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
     
 }
 .border{
@@ -417,30 +420,35 @@ footer{
     width: 100%;
 }
 
-#submit , #reset{
-    background-color:initial;
-}
+
+
 input , label{
     background-color: rgb(36, 228, 154);
+    border: solid 2px black;
     }
 input{
     height: 23px;
 }
 
 
-button{
-    height: 40px;
+
+#submit , #reset , #button {
+    height: 30px;
     width: 100px;
     background-color: rgb(36, 228, 154);
     border: solid 2px black;
 }
 
+
+
 #feedback{
    color: rgb(0, 0, 0);
    
 }
-.feedback{
+#text 
+{
     background-color: rgba(245, 252, 249, 0.6);
+    border: solid 2px black;
 }
 .thankyou{
     display: flex;
@@ -527,8 +535,8 @@ button{
     .pic{
         width: 100%;
     }
-    .square h3 {
-        font-size: 95%;
+    .square h2 {
+        font-size: 90%;
     }
 
     #spots {
@@ -639,7 +647,7 @@ button{
     .pic{
         width: 100%;
     }
-    .square h3 {
+    .square h2 {
         font-size: 90%;
     }
 
@@ -701,7 +709,9 @@ button{
     /* thankyou */
     .thankyou > h1{
         font-size: 300%;
-            
+    }
+    footer{
+        height: 55px;
     }
 }
 
@@ -748,8 +758,8 @@ button{
     .pic{
         width: 100%;
     }
-    .square h3 {
-        font-size: 100%;
+    .square h2 {
+        font-size: 80%;
     }
 
     #spots {
@@ -810,5 +820,8 @@ button{
     .thankyou > h1{
         font-size: 300%;
             
+    }
+    footer{
+        height: 40px;
     }
 }
