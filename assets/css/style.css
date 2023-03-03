@@ -103,6 +103,7 @@ h2 , h3 {
 .main {
     height: 100%;
     width: 100%;
+    /* https://www.northyorkshirewaterpark.co.uk/wp-content/uploads/2021/05/17091755a-1600x900.jpeg */
     background: url(../images/main.jpeg) no-repeat center center;
     background-position: center;
     background-size: cover;
@@ -145,6 +146,7 @@ h2 , h3 {
 .top-three {
     height: 100%;
     text-align: center;
+    /* pic: https://crowgreen-fishery.co.uk/wp-content/uploads/2015/05/Car-park-1.jpg */
     background-image: url(../images/GrowGreenFishery.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,14 +293,14 @@ footer{
 }
 
 /* gallery */
-#pictures {
+.pictures {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
 }
 
-#pictures img {
+.pictures img {
     width: 100%;
 }
 /* Places */
@@ -343,7 +345,9 @@ footer{
     width: fit-content;
     
 }
+
 #first{
+    /* pic: https://www.lakedistrict.gov.uk/__data/assets/image/0028/136747/Elterwater8.June-2017.Steph-Fulke-LDNP.jpg */
     background-image: url(../images/places/LakeDistrictNationalPark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -354,7 +358,9 @@ footer{
 
     
 }
+
 #second{
+    /* pic: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/43/56/c6/lake-edge-holiday-homes.jpg?w=700&h=-1&s=1 */
     background-image: url(../images/places/PearlLakeCountryHolidayPark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -362,15 +368,19 @@ footer{
     width: 100%;
     overflow: hidden;
 }
+
 #third{
-    background-image: url(../images/places/WestfieldFisheryCarpFishing\ Lake.jpg);
+    /* pix: http://westfieldfishery.co.uk/wp-content/uploads/2015/07/home-header-image1.jpg */
+    background-image: url(../images/places/WestfieldFisheryCarpFishingLake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
 }
+
 #fourth{
+    /* pic: https://images.immediate.co.uk/production/volatile/sites/22/2018/09/GettyImages-1014943222-c4423f3.jpg?quality=90&webp=true&resize=727,485 */
     background-image: url(../images/places/TheRiverDoveandthePeakDistrict.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -378,7 +388,9 @@ footer{
     width: 100%;
     overflow: hidden;
 }
+ 
 #fifth{
+    /* pic: https://www.lakedistrict.gov.uk/__data/assets/image/0014/150422/Windermere-Lake-Cruises.jpg */
     background-image: url(../images/places/WindermereandtheLakeDistrict.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -445,7 +457,8 @@ button{
         
 }
 .back1{
-    background-image: url(../images/backgroundhome.jpg);
+    /* pic: https://wallpaper.dog/large/10736616.jpg */
+    background-image: url(../images/thankyou/thankyouwallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -454,6 +467,7 @@ button{
     overflow: hidden;
 }
 .back2{
+    /* pic: https://www.sandwichlakes.co.uk/wp-content/uploads/2016/03/victory_fishing_lake_sandwich_kent.jpg*/
     background-image: url(../images/signup/victory_fishing_lake_sandwich_kent.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -569,6 +583,11 @@ button{
     .border , .border1 {
         font-size: 90%;
     }
+    /* thankyou */
+    .thankyou > h1{
+        font-size: 350%;
+            
+    }
     
 }
     
@@ -676,8 +695,13 @@ button{
         font-size: 75%;
     }
     /* gallery */
-    #pictures {
+    .pictures {
         column-count: 2;
+    }
+    /* thankyou */
+    .thankyou > h1{
+        font-size: 300%;
+            
     }
 }
 
@@ -779,7 +803,12 @@ button{
         font-size: 60%;
     }
     /* gallery */
-    #pictures {
+    .pictures {
         column-count: 1;
+    }
+    /* thankyou */
+    .thankyou > h1{
+        font-size: 300%;
+            
     }
 }
