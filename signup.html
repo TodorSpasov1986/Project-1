@@ -42,21 +42,21 @@
     <section class="back2">
         <div class="signup">
             <!-- form -->
-                <form>
-                    <label>Enter your Username:</label>
-                    <input type="text" name="username" placeholder="Username">
+                <form method="POST" action="https://formdump.codeinstitute.net/" >
+                    <label for="username">Enter your Username:</label>
+                    <input type="text" name="username" placeholder="Username" required>
                     <hr>
                     <label>Enter your Email:</label>
-                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="email" name="email" placeholder="Email Address" required>
                     <hr>
                     <label>Enter your Password:</label>
-                    <input type="password" name="password1" placeholder="Password">
+                    <input type="password" name="password1" placeholder="Password" required>
                     <hr>
                     <label>Re-Enter your Password:</label>
-                    <input type="password" name="password2" placeholder="Confirm Password">
+                    <input type="password" name="password2" placeholder="Confirm Password" required>
                     <hr>
                     <label>Date of Birth:</label>
-                    <input type="date" name="birthdate" id="birthdate">
+                    <input type="date" name="birthdate" id="birthdate" required>
                     <hr>
 
                     <input id="submit" type="submit" value="Register">
