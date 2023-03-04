@@ -12,7 +12,7 @@
     <title>Sign Up</title>
 </head>
 
-<body >
+<body>
     <!-- header -->
     <Header>
         <a href="index.html">
@@ -42,45 +42,56 @@
     <section class="back2">
         <div class="signup">
             <!-- form -->
-                <form method="POST" action="https://formdump.codeinstitute.net/" >
-                    <label for="username">Enter your Username:</label>
-                    <input type="text" name="username" placeholder="Username" required>
-                    <hr>
-                    <label>Enter your Email:</label>
-                    <input type="email" name="email" placeholder="Email Address" required>
-                    <hr>
-                    <label>Enter your Password:</label>
-                    <input type="password" name="password1" placeholder="Password" required>
-                    <hr>
-                    <label>Re-Enter your Password:</label>
-                    <input type="password" name="password2" placeholder="Confirm Password" required>
-                    <hr>
-                    <label>Date of Birth:</label>
-                    <input type="date" name="birthdate" id="birthdate" required>
-                    <hr>
+            <form method="get" action="thankyou.html">
 
-                    <input id="submit" type="submit" value="Register">
-                    <input id="reset" type="reset" value="Clear Form">
+                <h2>Sign Up for our weakly Newslater</h2>
+                <span>
+                 <label for="fname">First Name</label>
+                 <input id="fname" name="first_name" type="text" placeholder="First Name" required>
+                </span>
+                <span>
+                 <label for="lname">Last Name</label>
+                 <input id="lname" name="last_name" type="text" placeholder="Last Name" required>
+                </span>
+                <label for="email">Enter your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <span>
+                 <label>Date of Birth:</label>
+                 <input type="date" name="birthdate" id="birthdate" required>
+                </span>
+                <h2>Where do you prefer fishing</h2>
+                <span>
+                 <label for="seaf">Sea Fishing</label>
+                 <input type="radio" id="seaf" name="fishing_preferences" value="seaf" required>
+                 <label for="lakef">Lake Fishing</label>
+                 <input type="radio" id="lakef" name="fishing_preferences" value="lakef" required>
+                 <label for="riverf">River Fishing</label>
+                 <input type="radio" id="riverf" name="fishing_preferences" value="riverf" required>
+                </span>
+                 <!--Feedback-->
+                <h2>Please leave your feedback!</h2>
 
-                    <hr>
-                </form>
-        <!--Feedback-->
-                
-                    <h2>Please leave your feedback!</h2>
-                
-                
                 <textarea id="text" placeholder="Your feedback" rows="10" cols="36"></textarea>
-        <!--submit leading to Thank you page-->
-                
-                    <a id="button" href="./thankyou.html">Submit </a>
-               
-            
+                <!--submit leading to Thank you page-->
+                <span>
+                 <button type="submit">Sign Up</button>
+                 <button type="reset">Clear Form</button>
+                </span>
+            </form>
+           
+
+
+
+
+
+
+
         </div>
-       <!--div : extra-->
+        <!--div : extra-->
         <div class="extra"></div>
     </section>
     <footer class="visit">
-       <!-- footer : visit-->
+        <!-- footer : visit-->
         <ul class="social">
             <li><a href="http://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i

@@ -9,8 +9,8 @@
 body {
     font-family: 'Anton', 'Labrada', 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    color: rgb(0, 0, 0);
-    background-color: rgba(36, 228, 154, 0.6);
+    color: rgb(54, 53, 53);
+    background-color: rgba(134, 166, 235, 0.6);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,9 +24,9 @@ h2 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(54, 53, 53);
     text-align: center;
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
     font-size: 150%;
 }
 
@@ -36,9 +36,9 @@ h3 {
     font-family: 'Anton', sans-serif;
     text-transform: capitalize;
     letter-spacing: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(54, 53, 53);
     text-align: center;
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
 }
 
 
@@ -56,7 +56,7 @@ h3 {
     display: flex;
     flex-direction: row-reverse;
     float: right;
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
 
 }
 
@@ -79,8 +79,8 @@ h3 {
 }
 
 .menu a:hover {
-    border-bottom: 1px solid rgb(10, 158, 47);
-    color: rgb(10, 158, 47);
+    border-bottom: 1px solid rgb(42, 10, 158);
+    color: rgb(42, 10, 158);
 }
 
 .active {
@@ -100,7 +100,7 @@ h3 {
 /* cover text */
 .cover-text,
 .cover-text h2 {
-    color: black;
+    color: rgb(54, 53, 53);
 }
 
 .main {
@@ -136,7 +136,7 @@ h3 {
     text-align: center;
     width: 330px;
     height: 150px;
-    color: black;
+    color: rgb(54, 53, 53);
     padding-top: 40px;
     padding-left: 10px;
 
@@ -205,7 +205,7 @@ h3 {
 }
 
 .square h2 {
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
     text-align: center;
     align-items: center;
     width: 100%;
@@ -235,7 +235,7 @@ h3 {
     height: 100%;
     padding: 50px;
     text-align: center;
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
 
 
 
@@ -246,10 +246,10 @@ h3 {
 
 #news {
     border: solid 1px;
-    background-color: black;
+    background-color: rgb(54, 53, 53);
     height: 5px;
     width: auto;
-    color: black;
+    color: rgb(54, 53, 53);
 
 }
 
@@ -259,7 +259,7 @@ footer {
     width: 100%;
     height: 70px;
     position: fixed;
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
     text-align: center;
 
 }
@@ -292,7 +292,8 @@ footer {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-}
+    text-align: center;
+   }
 
 .pictures img {
     width: 100%;
@@ -334,14 +335,14 @@ footer {
 }
 
 .border1 h2 {
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
     width: fit-content;
     padding-left: 10px;
 
 }
 
 .border p {
-    background-color: rgba(36, 228, 154, 0.6);
+    background-color: rgba(134, 166, 235, 0.6);
     width: fit-content;
 
 }
@@ -404,54 +405,47 @@ footer {
 .signup {
     padding-top: 100px;
     text-align: center;
+}
+.signup form {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .extra {
     height: 365px;
     width: 100%;
 }
+form{
+    scale: 120%;
+}
+button{
+    height: inherit;
+    width: 150px;
+    font-size: larger;
+    border: solid 3px black;
+    background-color: rgb(40, 40, 95);
+    color: rgb(245, 252, 249);
+}
 
-
-
-input,
 label {
-    background-color: rgb(36, 228, 154);
     border: solid 2px black;
+    background-color: rgb(134, 166, 235);
 }
 
 input {
     height: 23px;
+    background-color: rgba(245, 252, 249, 0.6);
+    font-size: large;
+    text-align: left;
 }
 
-
-
-#submit,
-#reset,
-#button {
-    height: 30px;
-    width: 100px;
-    background-color: rgb(36, 228, 154);
-    border: solid 2px black;
-}
-
-
-
-#feedback {
-    color: rgb(0, 0, 0);
-
-}
 
 #text {
     background-color: rgba(245, 252, 249, 0.6);
-    border: solid 2px black;
     font-size: larger;
     text-align: center;
 }
@@ -599,6 +593,10 @@ input {
         font-size: 350%;
 
     }
+    /* sign up*/
+    form{
+        scale: 110%;
+    }
 
 }
 
@@ -708,6 +706,10 @@ input {
     footer {
         height: 55px;
     }
+    /* sign up*/
+    form{
+        scale: 100%;
+    }
 }
 
 /*  Mobile devices. */
@@ -812,5 +814,9 @@ input {
 
     footer {
         height: 40px;
+    }
+    /* sign up*/
+    form{
+        scale: 90%;
     }
 }
