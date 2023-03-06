@@ -5,6 +5,37 @@
 #### This is a fishing places site that is showing and recommending to everyone who wants to go fishing in the UK, which are the top places rated by the other Fishermans. It is designed to be responsive and accessible on a range of devices, making it easy to navigate from mobile phones and tablets.</h4>
 
 <h2 text-align="center"><img src="./assets/images/README/amiresponsivep1.jpg"></h2>
+
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the fishing places in UK.
+        2. As a first time visitor, I want to be able to easily navigate throughout the site to find content and location for places which i can vsisit in the future.
+        3. As a first time visitor, I want to find out which are the top recomended fishing places for 2023 . I also want to locate their social media links.
+
+    -   #### Returning Visitor Goals
+
+        1. As a returning visitor, I want to find the latest fishing news.
+        2. As a returning visitor, I want to find the locations with short description for the top 5 places in uk so it will be easier for me to plan which one to visit.
+        3. As a returning visitor, I want to find a gallery with some of the best fishing images from the places in the site.
+
+    -   #### Frequent User Goals
+        1. As a frequent user, I want to have a frequantly updated site on which i will be able to plan my fishing trip.
+        2. As a frequent user, I want to check to see if the same places are still voted as top UK fishing destinations.
+        3. As a frequent user, I want to sign up to the Newsletter so that I can receive the latest fishing news every week.
+
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colours used are light blue and dark grey.
+    -   #### Typography
+        -   The Anton font is the main font used throughout the whole website with some Labrada in the cover text and Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Anton is a reworking of a traditional advertising sans serif typeface. The letter forms have been digitised and then reshaped for use as a webfont.
+
+    -   #### Imagery
+        -   Imagery is important. The large, background image is designed to be striking and catch the user's attention. The most of the sites background is from different eyes catching photos. On the places page, it has images for the top 5 locations as well. The gallery is created from 14 pictures of different fishing catches from the top  places in UK. 
+
  
 ## Features 
 
