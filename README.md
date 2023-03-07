@@ -231,4 +231,12 @@ The live link can be found here - https://todorspasov1986.github.io/Project-1/in
 
 ### Read me File
 
-  -For the Readme file i used the sample tamplates Readme.md for Love Running and Code institute.
+- For the Readme file i used the sample tamplates Readme.md for Love Running and Code institute.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
+
+-   January 2023 slack group for their support and advices on our weekly calls
