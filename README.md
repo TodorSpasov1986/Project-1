@@ -140,20 +140,30 @@
   ![(Jigsaw) validator](/assets/images/README/stylecsslvalidation.jpg)
 - LightHouse testing : All accessibility passed with 100%
   - Home page
-    - [Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
-    - [Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
+    - Desktop 
+     ![Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
+    - Mobile 
+     ![Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
   - Places Page
-    - [Desktop](/assets/images/README/LightHouse/placesdeskLH.jpg)
-    - [Mobile](/assets/images/README/LightHouse/placesmobileLH.jpg)
+    - Desktop 
+     ![Desktop](/assets/images/README/LightHouse/placesdeskLH.jpg)
+    - Mobile
+     ![Mobile](/assets/images/README/LightHouse/placesmobileLH.jpg)
   - Gallery Page
-    - [Desktop](/assets/images/README/LightHouse/gallerymobileLH.jpg)
-    - [Mobile](/assets/images/README/LightHouse/gallerydeskLH.jpg)
+    - Desktop
+     ![Desktop](/assets/images/README/LightHouse/gallerymobileLH.jpg)
+    - Mobile
+     ![Mobile](/assets/images/README/LightHouse/gallerydeskLH.jpg)
   - Sign Up Page
-    - [Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
-    - [Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
+    - Desktop
+     ![Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
+    - Mobile
+     ![Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
   - Thank you Page
-    - [Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
-    - [Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
+    - Desktop
+     ![Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
+    - Mobile
+     ![Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
 
 ### Unfixed Bugs
 
