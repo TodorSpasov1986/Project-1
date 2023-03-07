@@ -441,7 +441,9 @@ button {
 label {
     border: solid 2px black;
     background-color: rgb(134, 166, 235);
-}
+    padding-left: 5px;
+    padding-right: 5px;
+} 
 
 input {
     height: 23px;
@@ -450,7 +452,7 @@ input {
     text-align: left;
 }
 .sigh input{
-    width: 145px;
+    width: 120px;
 }
 
 

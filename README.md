@@ -156,14 +156,14 @@
      ![Mobile](/assets/images/README/LightHouse/gallerydeskLH.jpg)
   - Sign Up Page
     - Desktop
-     ![Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
+     ![Desktop](/assets/images/README/LightHouse/signupdeskLH.jpg)
     - Mobile
-     ![Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
+     ![Mobile](/assets/images/README/LightHouse/signupmobileLH.jpg)
   - Thank you Page
     - Desktop
-     ![Desktop](/assets/images/README/LightHouse/homedeskLH.jpg)
+     ![Desktop](/assets/images/README/LightHouse/thankyoudeskLH.jpg)
     - Mobile
-     ![Mobile](/assets/images/README/LightHouse/homemobileLH.jpg)
+     ![Mobile](/assets/images/README/LightHouse/thankyoumobileLH.jpg)
 
 ### Unfixed Bugs
 
