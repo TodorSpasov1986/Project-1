@@ -421,9 +421,10 @@ footer {
     width: 100%;
 }
 
-form {
-    resize: 120%;
-}
+   
+     form {
+        font-size: 120%;
+    }
 
 button {
     height: inherit;
@@ -599,10 +600,10 @@ input {
 
     }
 
-    /* sign up*/
-    form {
-        resize: 110%;
-    }
+     /* sign up*/
+     form {
+            font-size: 110%;
+        }
 
 }
 
@@ -712,8 +713,13 @@ input {
     footer {
         height: 55px;
     }
+        /* sign up*/
+    form {
+            font-size: 100%;
+        }
+    }
 
-}
+
 
     /*  Mobile devices. */
 

@@ -29,7 +29,7 @@
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are light blue and dark grey.
+        -   The two main colours used are rgba(134, 166, 235, 0.6) and rgb(54, 53, 53).
     -   #### Typography
         -   The Anton font is the main font used throughout the whole website with some Labrada in the cover text and Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Anton is a reworking of a traditional advertising sans serif typeface. The letter forms have been digitised and then reshaped for use as a webfont.
 
@@ -53,21 +53,21 @@
   - The landing includes a photograph with text overlay to allow the user to understand exactly the purpose to this site. 
   - This section introduces the user to Fishing UK and its purpose to present the Best Fishing Places in Uk for 2023, with an eye catching animation to grab their attention.
 
-![Landing Page](./assets/images/README/landingpage.jpg)
+![Home Page](./assets/images/README/landingpage.jpg)
 
 - __TOP 3 FISHING SPOTS IN UK - 2023__
 
   - Top 3 Fishing Spots section will allow the user to see which are the Top 3 Fishing spots in UK for 2023, voted from the other fishermans. 
   - This user will find Pictures of the top 3 places aranged from First to Third with links leading to the places section. 
 
-![Club Ethos](./assets/images/README/top3places.jpg)
+![Top 3 Places](./assets/images/README/top3places.jpg)
 
 - __NEWS SECTION__
 
   - This section will provide the user with the 5 latest fishing news. 
   - This section will be updated weekly in line with the sites news letter to keep the user up to date. 
 
-![Meetup Times](./assets/images/README/NewsSection.jpg)
+![News Section](./assets/images/README/NewsSection.jpg)
 
 - __The Footer__ 
 
@@ -105,25 +105,39 @@
 
 ### Features Left to Implement
 
-- Another feature idea
+- Will have 15 more fishing places with text and google maps locations
+- Will have 5 more news in the news section with  the latest newsletter available as well.
+  
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+### Manual testing 
+   - Open the site from several different mobile devices, tablets, laptops, and desktop PCs, and all working and displaying as expected
+   - Features testing
+     - Navigational bar: All nav bar elements clicked and tested in Chrome, Internet Explorer, and Mozilla Firefox.
+     - Top 3 Section: The three Places links are tested and direct the user to the places page.
+     - News Section: Signup Link tested and direct the user to the signup page.
+     - Footer: Footer elements are tested in Chrome, Internet Explorer, and Mozilla Firefox and open the links in new blank pages.
+     - Places page: All 5 links are opening in a new blank page and displaying the correct google maps locations.
+     - Sign up form: The form tested on all available browser , user needs to enter all the form inputs excluding the Feedback textarea and then is directed to the Thank you page.
+  
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Home page: No errors were returned when passing through the official W3C validator
+  ![W3C validator](/assets/images/README/Indexhtmlvalidation.jpg)
+  - Places page: No errors were returned when passing through the official W3C validator
+  ![W3C validator](/assets/images/README/placeshtmlvalidation.jpg)
+  - Gallery page: No errors were returned when passing through the official W3C validator
+  ![W3C validator](/assets/images/README/galleryhtmlvalidation.jpg)
+  - Sign up page: No errors were returned when passing through the official W3C validator
+  ![W3C validator](/assets/images/README/signuphtmlvalidation.jpg)
+  - Thank you page: No errors were returned when passing through the official W3C validator
+  ![W3C validator](/assets/images/README/thankyouhtmlvalidation.jpg)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official W3C (Jigsaw) validator
+  ![(Jigsaw) validator]()
 
 ### Unfixed Bugs
 
