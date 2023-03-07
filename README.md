@@ -175,7 +175,6 @@ No Unfixed bugs in the current version of the site
 
    - Log in to GitHub and locate the [GitHub Repository](https://github.com/)
    - At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-   - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
    - Scroll down the Settings page until you locate the "GitHub Pages" Section.
    - Under "Source", click the dropdown called "None" and select "Master Branch".
    - The page will automatically refresh.
@@ -232,3 +231,4 @@ The live link can be found here - https://todorspasov1986.github.io/Project-1/in
 
 ### Read me File
 
+  -For the Readme file i used the sample tamplates Readme.md for Love Running and Code institute.
