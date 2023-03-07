@@ -137,37 +137,71 @@
   ![W3C validator](/assets/images/README/thankyouhtmlvalidation.jpg)
 - CSS
   - No errors were found when passing through the official W3C (Jigsaw) validator
-  ![(Jigsaw) validator]()
+  ![(Jigsaw) validator](/assets/images/README/stylecsslvalidation.jpg)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No Unfixed bugs in the current version of the site
 
 ## Deployment
+ 
+- The project was deployed to GitHub Pages using the following steps...
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+   - Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+   - At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+   - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+   - Scroll down the Settings page until you locate the "GitHub Pages" Section.
+   - Under "Source", click the dropdown called "None" and select "Master Branch".
+   - The page will automatically refresh.
+   - Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://todorspasov1986.github.io/Project-1/index.html
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The most of the structure and code was taken from Code Insitute learning content (Coffee coders and Love Running Projects)
+- The icons in the nav bar ,Top 3 section and footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the News Section :
+  - First news was taken from https://www.sustainablefoodtrust.org : [Link to the News](https://sustainablefoodtrust.org/news-views/sustainable-seafood-uk/#:~:text=Known%20as%20'the%20Big%20Five,%2C%20haddock%2C%20tuna%20and%20prawns.)
+  - Second news was taken from https://en.wikipedia.org : [Link to the News](https://en.wikipedia.org/wiki/Kevin_VanDam)
+  - Third news was taken from https://www.wildlifetrusts.org : [Link to the News](https://www.wildlifetrusts.org/wildlife-explorer/marine/fish-sharks-skates-and-rays/lesser-weever-fish#:~:text=There%20are%20two%20species%20of,painful%20venom%20into%20unsuspecting%20victims!)
+  - Forth news was taken from https://fishingnews.co.uk : [Link to the News](https://fishingnews.co.uk/news/outrage-as-defra-closes-file-on-die-offs/#:~:text=23rd%20February%202023&text=Defra%20will%20not%20carry%20out,the%20region%2C%20reports%20Tim%20Oliver.)
+  - Fifth news was taken from https://www.theneweuropean.co.uk : [Link to the News](https://www.theneweuropean.co.uk/so-long-and-thanks-for-all-the-fish-brexit/)
+- The text for the Places page:
+  - First place was taken from https://en.wikipedia.org : [Link to the description](https://en.wikipedia.org/wiki/Lake_District#:~:text=A%20popular%20holiday%20destination%2C%20it,kilometres%20(912%20sq%20mi).)
+  - Second place was taken from https://www.visitherefordshire.co.uk : [Link to the description](https://www.visitherefordshire.co.uk/discover/pearl-lake-country-holiday-park)
+  - Third place was taken from https://westfieldfishery.co.uk : [Link to the description](https://westfieldfishery.co.uk/)
+  - Forth place was taken from  https://www.willerby.com : [Link to the description](https://www.willerby.com/blog/lifestyle/top-nine-uk-fishing-spots)
+  - Fifth place was taken from  https://www.willerby.com : [Link to the description](https://www.willerby.com/blog/lifestyle/top-nine-uk-fishing-spots)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the home page are from 
+ - Main Photo was taken from https://www.northyorkshirewaterpark.co.uk : [Link to the photo](https://www.northyorkshirewaterpark.co.uk/wp-content/uploads/2021/05/17091755a-1600x900.jpeg) 
+ - The First Place photo was taken from https://en.wikipedia.org :[Link to the photo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Keswick_Panorama_-_Oct_2009.jpg/1200px-Keswick_Panorama_-_Oct_2009.jpg)
+ - The Second Place photo was taken from https://www.trip.com :[Link to the photo](https://youimg1.tripcdn.com/target/0ww6t120008zg1rd08099.jpg?proc=source%2Ftrip)
+ - The Third Place photo was taken from http://westfieldfishery.co.uk :[Link to the photo](http://westfieldfishery.co.uk/wp-content/uploads/2015/07/home-header-image1.jpg)
+ - The Backgrond photo was taken from https://crowgreen-fishery.co.uk :[Link to the photo](https://crowgreen-fishery.co.uk/wp-content/uploads/2015/05/Car-park-1.jpg)
+- The images used for the gallery page were taken from :
+ - Photo 1 was taken from https://www.stephens-scown.co.uk: [Link to the photo](https://www.stephens-scown.co.uk/app/uploads/2021/11/GettyImages-827888510.jpg)
+ - Photo 2 was taken from https://en.wikipedia.org : [Link to the photo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Angler_at_devizes_england_arp.jpg/300px-Angler_at_devizes_england_arp.jpg)
+ - Photo 3 was taken from https://media.wired2fish.com : [Link to the photo](https://media.wired2fish.com/uploads/2023/02/bass-fishing-basics-768x432.webp)
+ - Photo 4 was taken from https://www.seaangler.co.uk : [Link to the photo](https://www.seaangler.co.uk/wp-content/uploads/sites/3/cotwweb.jpg)
+ - Photo 5 was taken from https://ctfassets.net : [Link to the photo](https://images.ctfassets.net/pujs1b1v0165/2AvtJ9pcEJ4bjxkR8Vc5bJ/5d1033f3c8f450f73cf54b521bb06b4e/How_to_Find_the_Right_Depth_for_Bass.jpg?w=1300&fit=fill&fm=webp)
+ - Photo 6 was taken from https://news.sky.com : [Link to the photo](https://e3.365dm.com/22/11/1600x900/skynews-giant-goldfish-carp_5974274.jpg?20221122082215 )
+ - Photo 7 was taken from : [Link to the photo]()
+ - Photo 8 was taken from : [Link to the photo]()
+ - Photo 9 was taken from : [Link to the photo]()
+ - Photo 10 was taken from : [Link to the photo]()
+ - Photo 11 was taken from : [Link to the photo]()
+ - Photo 12 was taken from : [Link to the photo]()
+ - Photo 13 was taken from : [Link to the photo]()
+ - Photo 14 was taken from : [Link to the photo]()
+- The photos used on the sign up page are from 
+
+### Read me File
+

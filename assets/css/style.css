@@ -187,18 +187,21 @@ h3 {
 
 
 #square-container1 {
+    /* pic: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Keswick_Panorama_-_Oct_2009.jpg/1200px-Keswick_Panorama_-_Oct_2009.jpg */
     background: url(../images/LakeDistrct.jpg) no-repeat center center;
     margin: 0 auto;
 
 }
 
 #square-container2 {
+    /* pic: https://youimg1.tripcdn.com/target/0ww6t120008zg1rd08099.jpg?proc=source%2Ftrip */
     background: url(../images/PearlLake.jpg) no-repeat center center;
     float: left;
 
 }
 
 #square-container3 {
+    /* pic: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Keswick_Panorama_-_Oct_2009.jpg/1200px-Keswick_Panorama_-_Oct_2009.jpg */
     background: url(../images/WestfieldFishery.jpg) no-repeat center center;
     float: right;
 
