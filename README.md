@@ -29,7 +29,7 @@
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are rgba(134, 166, 235, 0.6) and rgb(54, 53, 53).
+        -   The two main colours used are rgba(134, 166, 235, 0.6) and rgb(22, 22, 22).
     -   #### Typography
         -   The Anton font is the main font used throughout the whole website with some Labrada in the cover text and Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Anton is a reworking of a traditional advertising sans serif typeface. The letter forms have been digitised and then reshaped for use as a webfont.
 

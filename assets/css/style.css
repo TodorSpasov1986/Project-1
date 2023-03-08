@@ -9,7 +9,7 @@
 body {
     font-family: 'Anton', 'Labrada', sans-serif;
     font-weight: 400;
-    color: rgb(54, 53, 53);
+    color: rgb(22, 22, 22);
     background-color: rgba(134, 166, 235, 0.6);
     min-height: 100vh;
     display: flex;
@@ -24,7 +24,7 @@ h2 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: rgb(54, 53, 53);
+    color: rgb(22, 22, 22);
     text-align: center;
     background-color: rgba(134, 166, 235, 0.6);
     font-size: 150%;
@@ -36,7 +36,7 @@ h3 {
     font-family: 'Anton', sans-serif;
     text-transform: capitalize;
     letter-spacing: 5px;
-    color: rgb(54, 53, 53);
+    color: rgb(22, 22, 22);
     text-align: center;
     background-color: rgba(134, 166, 235, 0.6);
 }
@@ -100,7 +100,7 @@ h3 {
 /* cover text */
 .cover-text,
 .cover-text h2 {
-    color: rgb(54, 53, 53);
+    color: rgb(22, 22, 22);
 }
 
 .main {
@@ -136,7 +136,7 @@ h3 {
     text-align: center;
     width: 330px;
     height: 150px;
-    color: rgb(54, 53, 53);
+    color: rgb(22, 22, 22);
     padding-top: 40px;
     padding-left: 10px;
 
@@ -252,7 +252,7 @@ h3 {
     background-color: rgb(54, 53, 53);
     height: 5px;
     width: auto;
-    color: rgb(54, 53, 53);
+    color: rgb(22, 22, 22);
 
 }
 
