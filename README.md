@@ -167,7 +167,7 @@
 
 ### Unfixed Bugs
 
-No Unfixed bugs in the current version of the site
+No Unfixed bugs are found in the current version of the site
 
 ## Deployment
  
@@ -188,7 +188,7 @@ The live link can be found here - https://todorspasov1986.github.io/Project-1/in
 
 ### Content 
 
-- The most of the structure and code was taken from Code Insitute learning content (Coffee coders and Love Running Projects)
+- The most of the structure and code was ispired from Code Insitute learning content (Coffee coders and Love Running Projects)
 - The icons in the nav bar ,Top 3 section and footer were taken from [Font Awesome](https://fontawesome.com/)
 - The text for the News Section :
    - First news was taken from https://www.sustainablefoodtrust.org : [Link to the News](https://sustainablefoodtrust.org/news-views/sustainable-seafood-uk/#:~:text=Known%20as%20'the%20Big%20Five,%2C%20haddock%2C%20tuna%20and%20prawns.)
